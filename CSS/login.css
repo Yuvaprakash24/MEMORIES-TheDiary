@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Peralta&display=swap');
+
+    .dance-font{
+        font-family: '', cursive;
+    }
+
+    .spy{
+        font-family:'Peralta', serif;
+    }
+    .bgpic{
+        background: url('../Images/login1.jpg') no-repeat;
+        height: 100%;
+    }
+    #log{
+        padding: 40px 40px;
+        box-shadow:0 0 10px 0 black;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    h1{
+        color: black;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+
+    .nav-item:hover{
+        text-decoration: underline;
+    }

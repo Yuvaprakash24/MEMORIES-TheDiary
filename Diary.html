@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css.map">
+    <link rel="stylesheet" href="CSS/font-awesome.css">
+    <link rel="stylesheet" href="JS/bootstrap.bundle.js">
+    <link rel="stylesheet" href="JS/bootstrap.bundle.js.map">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/diary.css">
+</head>
+<body>
+    <nav class="navbar bg-secondary navbar-expand-sm sticky-top">
+        <div class="container-fluid">
+        <a href="#" class="navbar-brand spy" style="font-size: 27px;">Memories <span class="fa fa-calendar-edit"></span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#diary-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="diary-navbar">
+            <ul class="navbar-nav ms-auto dance-font">
+                <li class="nav-item px-3">
+                    <a href="Home.html" style="text-decoration: none; color: rgb(41, 40, 40);">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="notepad.html" style="text-decoration: none; color: rgb(41, 40, 40);">Notes</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="#" style="text-decoration: none; color: rgb(41, 40, 40);">Diary</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="login.html" style="text-decoration: none; color: rgb(41, 40, 40);"><span class="fa fa-user"> </span> LogIn</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    
+<div style="background-color: #4285F4;">
+       <div class="container here">
+        <center>
+            <br>
+        <h1 style="color: black;" class="spy display-4"><span class="fa fa-book fs-2x"> </span> Diary</h1>
+        <form id="diary-form">
+        <textarea class="p-5" name="" id="text" cols="30" rows="10">
+        </textarea>
+        <br>
+        <button type="submit" onclick="window.location.reload()" class="btn" style="background-color: #fd7e14;">Done</button>
+        </form>
+        </center>
+        <input type="text" id="diaryid" style="display: none;">
+        <br>
+    </div>
+</div>
+<div style="background-color: #88ABFF;">
+    <div class="container">
+        <br>
+    <h1 class="spy">My Diary:</h1>
+        <div class="container" style="padding-left: 100px;">
+            <div id="MyDiary" class="middle1 d-flex flex-wrap">
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="JS/Diary.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+.dance-font{
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+.spy{
+    font-family:'peralta', serif;
+}
+
+.card{
+    position: relative;
+}
+
+.b1{
+    position: absolute;
+    bottom: 2%;
+    right: 3px;
+}
+
+.bcolor1{
+    background: linear-gradient(150deg, violet, indigo, blue, green, yellow, orange, red);
+}
+
+.bcolor2{
+    background: linear-gradient(180deg, green, yellow, orange, red);
+}
+
+.bcolor3{
+    background: linear-gradient(30deg,red, orange, yellow, green, blue, indigo, violet);
+}
+
+.bcolor4{
+    background: linear-gradient(150deg, white,white,white, violet, indigo, blue,green);
+}
+
+.bcolor5{
+    background: linear-gradient(180deg, violet, indigo, blue,green);
+}
+
+.bcolor6{
+    background: linear-gradient(30deg, green, blue, indigo, violet,white,white,white);
+}
+
+
+.bcolor{
+    background: linear-gradient(60deg, violet, indigo, blue, green, yellow, orange, red);
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
